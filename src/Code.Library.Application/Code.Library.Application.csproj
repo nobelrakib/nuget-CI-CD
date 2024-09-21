@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Abhith Rajan</Authors>
+    <Company>Abhith Rajan</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://code-library.abhith.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Abhith/Code.Library</RepositoryUrl>
+    <PackageTags>c#, mediatr, helpers</PackageTags>
+    <Description>C# utils libraries contain a collection of reusable models, helper methods and extensions.
+Specific to Application layer.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Code.Library\Code.Library.csproj" />
+  </ItemGroup>
+
+</Project>

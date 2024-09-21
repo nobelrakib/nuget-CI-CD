@@ -5,7 +5,9 @@
 
 ## Overview
 
-C# utils libraries contains growing number of reusable models, helper methods and extensions.
+C# utils libraries contains growing number of reusable C# models, helper methods and extensions.
+
+Source code is available on [GitHub](https://github.com/Abhith/Code.Library)
 
 ## Install
 
@@ -19,6 +21,7 @@ Install-Package Code.Library.AspNetCore
 Install-Package Code.Library.Application
 ```
 
-## Documentation
+Maintained by [Abhith Rajan](https://www.abhith.net)
 
-Visit [https://code-library.abhith.net](https://code-library.abhith.net)
+> [!NOTE]
+> This is a work in progress docs made with DocFX.
