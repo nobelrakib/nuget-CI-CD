@@ -10,6 +10,7 @@
     <PackageTags>c#, mediatr, helpers</PackageTags>
     <Description>C# utils libraries contain a collection of reusable models, helper methods and extensions.
 Specific to Application layer.</Description>
+     <IsPackable>true</IsPackable> 
   </PropertyGroup>
 
   <ItemGroup>

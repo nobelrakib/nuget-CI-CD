@@ -11,6 +11,7 @@ Specific to ASP.NET Core project.</Description>
     <PackageProjectUrl>https://code-library.abhith.net</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Abhith/Code.Library</RepositoryUrl>
     <PackageTags>c#, helpers</PackageTags>
+    <IsPackable>true</IsPackable> 
   </PropertyGroup>
 
   <ItemGroup>
