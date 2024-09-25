@@ -26,7 +26,7 @@ jobs:
       run: dotnet build --configuration Release
       working-directory: ./src
     - name: Create NuGet Package
-      run: dotnet pack --no-restore --no-build -c Release /p:Version="22.0.5" /p:PackageReleaseNotes="See https://github.com/Abhith/Code.Library/releases/tag/${{ github.event.release.tag_name }}" 
+      run: dotnet pack --no-restore --no-build -c Release /p:Version="6.0.9" /p:PackageReleaseNotes="See https://github.com/Abhith/Code.Library/releases/tag/${{ github.event.release.tag_name }}" 
       working-directory: ./src
     - name: Archive NuGet Package
       uses: actions/upload-artifact@v4
