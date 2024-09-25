@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
           name: Code.Library
-          path: ./src/Code.Library/bin/Release/Code.Library.22.0.5.nupkg
+          path: ./src/Code.Library/bin/Release/Code.Library.${{ github.event.release.tag_name }}.nupkg
     - name: Publish Nuget Package
       run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.my_nuget_package_secret }} --source https://api.nuget.org/v3/index.json --no-symbols true
       
